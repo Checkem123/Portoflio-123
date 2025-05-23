@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kevin Fetet | Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="ressources/favicon.png" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <!-- Header/Navigation -->
+        <header>
+            <nav>
+                <div class="nav-content">
+                    <a href="#" class="logo">
+                        <img
+                            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=150&h=150&fit=crop&crop=center"
+                            alt="Logo"
+                            class="logo-image"
+                        />
+                    </a>
+                    <ul class="nav-links">
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#experience">Parcours</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li>
+                            <a
+                                href="https://github.com/Checkem123"
+                                target="_blank"
+                                class="nav-button"
+                            >
+                                GitHub
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="14"
+                                    height="14"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                                    ></path>
+                                    <polyline
+                                        points="15 3 21 3 21 9"
+                                    ></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <button
+                        class="menu-toggle"
+                        aria-label="Toggle menu"
+                        aria-expanded="false"
+                    >
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <span class="hero-greeting">Bonjour, je suis</span>
+                        <h1>Kevin Fetet</h1>
+                        <h2>
+                            J'ai pour ambition de faire de cette passion mon
+                            metier.
+                        </h2>
+                        <p>
+                            Ayant suivis 2 formations ainsi que de nombreux MOOC
+                            via differentes plate-formes tel que Freecodecamp,
+                            Front-end mentor, Youtube, Udemy et Scrimba.
+                        </p>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a
+                            href="ressources/CV.pdf"
+                            download
+                            class="cta-primary"
+                        >
+                            <span>CV</span>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+                                />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                        </a>
+                        <a href="#contact" class="cta-secondary"
+                            >Me contacter</a
+                        >
+                        <a href="#projects" class="cta-secondary">
+                            Voir mes projets
+                        </a>
+                    </div>
+
+                    <div class="hero-tech">
+                        <div class="tech-label">Technologies principales</div>
+                        <div class="tech-stack">
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">TypeScript</span>
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">Express</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="code-block">
+                        <pre><code>class Developer {
+    name = "Kevin Fetet"
+    role = "Full Stack Developer"
+    skills = ["React", "TypeScript", "Node.js"]
+    
+    createAwesomeStuff() {
+        return "Modern Web Apps ✨"
+    }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">À propos</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Développeur autodidacte passionné, j'ai suivi
+                            plusieurs formations et MOOC via différentes
+                            plateformes comme Freecodecamp, Front-end Mentor, et
+                            Scrimba. Mon objectif est de transformer cette
+                            passion en métier.
+                        </p>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skills-category">
+                            <div class="category-header">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M12 2l10 6.5v7L12 22 2 15.5v-7L12 2zM12 22v-6.5"
+                                    />
+                                    <path d="M22 8.5l-10 7-10-7" />
+                                    <path d="M2 15.5l10-7 10 7" />
+                                    <path d="M12 2v6.5" />
+                                </svg>
+                                <h3>Front-end Development</h3>
+                            </div>
+                            <div class="tech-stack">
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="HTML5">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                            alt="HTML5"
+                                        />
+                                        <span>HTML5</span>
+                                    </div>
+                                </div>
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="CSS3">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                            alt="CSS3"
+                                        />
+                                        <span>CSS3</span>
+                                    </div>
+                                </div>
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="JavaScript">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                            alt="JavaScript"
+                                        />
+                                        <span>JavaScript</span>
+                                    </div>
+                                </div>
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="React">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                            alt="React"
+                                        />
+                                        <span>React</span>
+                                    </div>
+                                </div>
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="TypeScript">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                                            alt="TypeScript"
+                                        />
+                                        <span>TypeScript</span>
+                                    </div>
+                                </div>
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="Sass">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+                                            alt="Sass"
+                                        />
+                                        <span>Sass</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills-category">
+                            <div class="category-header">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path d="M18 10h-4V4h4v6z" />
+                                    <path d="M14 10v4h4v-4h-4z" />
+                                    <path d="M14 18v2h4v-2h-4z" />
+                                    <path d="M10 18v2h4v-2h-4z" />
+                                    <path d="M6 18v2h4v-2H6z" />
+                                    <path d="M6 14v4h4v-4H6z" />
+                                    <path d="M6 10v4h4v-4H6z" />
+                                    <path d="M6 6v4h4V6H6z" />
+                                    <path d="M10 6v4h4V6h-4z" />
+                                </svg>
+                                <h3>Back-end Development</h3>
+                            </div>
+                            <div class="tech-stack">
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="Node.js">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                            alt="Node.js"
+                                        />
+                                        <span>Node.js</span>
+                                    </div>
+                                </div>
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="Express">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                                            alt="Express"
+                                        />
+                                        <span>Express</span>
+                                    </div>
+                                </div>
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="MongoDB">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                                            alt="MongoDB"
+                                        />
+                                        <span>MongoDB</span>
+                                    </div>
+                                </div>
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="Git">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                                            alt="Git"
+                                        />
+                                        <span>Git</span>
+                                    </div>
+                                </div>
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="npm">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+                                            alt="npm"
+                                        />
+                                        <span>npm</span>
+                                    </div>
+                                </div>
+                                <div class="tech-wrapper">
+                                    <div class="tech-item" title="VS Code">
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                                            alt="VS Code"
+                                        />
+                                        <span>VS Code</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projets</h2>
+                <div class="projects-grid">
+                    <div class="project-wrapper">
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img
+                                    src="projects/country-app.png"
+                                    alt="Country App Preview"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>Country App</h3>
+                                <p>
+                                    Application React/TypeScript permettant
+                                    d'explorer les pays du monde et leurs
+                                    informations.
+                                </p>
+                                <div class="project-content-footer">
+                                    <div class="project-tags">
+                                        <span>React</span>
+                                        <span>TypeScript</span>
+                                        <span>API</span>
+                                    </div>
+                                    <a
+                                        href="https://country-app-ts.netlify.app/"
+                                        target="_blank"
+                                        class="project-link"
+                                        >Voir le projet</a
+                                    >
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="project-wrapper">
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img
+                                    src="projects/tenzies-game.png"
+                                    alt="Tenzies Game Preview"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>Tenzies Game</h3>
+                                <p>
+                                    Jeu de dés interactif développé avec React,
+                                    mettant en pratique la gestion d'état et les
+                                    animations.
+                                </p>
+                                <div class="project-content-footer">
+                                    <div class="project-tags">
+                                        <span>React</span>
+                                        <span>JavaScript</span>
+                                        <span>Game</span>
+                                    </div>
+                                    <a
+                                        href="https://tenzies-game-app1.netlify.app/"
+                                        target="_blank"
+                                        class="project-link"
+                                        >Voir le projet</a
+                                    >
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="project-wrapper">
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img
+                                    src="projects/mixtral-recipe.png"
+                                    alt="Chef Mixtral Preview"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>Chef Mixtral</h3>
+                                <p>
+                                    Générateur de recettes utilisant l'IA pour
+                                    créer des recettes uniques et
+                                    personnalisées.
+                                </p>
+                                <div class="project-content-footer">
+                                    <div class="project-tags">
+                                        <span>React</span>
+                                        <span>AI</span>
+                                        <span>API</span>
+                                    </div>
+                                    <a
+                                        href="https://mixtral-recipe-app.netlify.app/"
+                                        target="_blank"
+                                        class="project-link"
+                                        >Voir le projet</a
+                                    >
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="project-wrapper">
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img
+                                    src="projects/dictionary.png"
+                                    alt="Dictionary App Preview"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>Dictionnaire</h3>
+                                <p>
+                                    Dictionnaire en React et TypeScript,
+                                    recherche via une API.
+                                </p>
+                                <div class="project-content-footer">
+                                    <div class="project-tags">
+                                        <span>React</span>
+                                        <span>TypeScript</span>
+                                        <span>API</span>
+                                    </div>
+                                    <a
+                                        href="https://dictionary-app123.netlify.app/"
+                                        target="_blank"
+                                        class="project-link"
+                                        >Voir le projet</a
+                                    >
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="project-wrapper">
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img
+                                    src="projects/newsletter.png"
+                                    alt="Newsletter Component Preview"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>Composant de newsletter</h3>
+                                <p>
+                                    Composant de newsletter en React et
+                                    TypeScript. Projet Front-end Mentor.
+                                </p>
+                                <div class="project-content-footer">
+                                    <div class="project-tags">
+                                        <span>React</span>
+                                        <span>TypeScript</span>
+                                        <span>Frontend Mentor</span>
+                                    </div>
+                                    <a
+                                        href="https://newsletter-react-ts-app.netlify.app/"
+                                        target="_blank"
+                                        class="project-link"
+                                        >Voir le projet</a
+                                    >
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="project-wrapper">
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img
+                                    src="projects/pokedex.png"
+                                    alt="Pokedex Preview"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>Pokedex</h3>
+                                <p>
+                                    Petit pokedex en HTML, CSS et JavaScript
+                                    vanilla. Mon tout premier projet utilisant
+                                    une API.
+                                </p>
+                                <div class="project-content-footer">
+                                    <div class="project-tags">
+                                        <span>HTML</span>
+                                        <span>CSS</span>
+                                        <span>JavaScript</span>
+                                        <span>API</span>
+                                    </div>
+                                    <a
+                                        href="https://pokedex-123123.netlify.app/"
+                                        target="_blank"
+                                        class="project-link"
+                                        >Voir le projet</a
+                                    >
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Parcours</h2>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <div class="experience-year">2021-2022</div>
+                        <div class="experience-content">
+                            <h3>Développeur Web & Mobile</h3>
+                            <div class="experience-location">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                                    ></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                CCI Vosges Épinal
+                            </div>
+                            <p>
+                                Formation intensive avec spécialisation Symfony.
+                                Création d'applications web modernes et mise en
+                                pratique des concepts avancés du développement.
+                            </p>
+                            <div class="experience-tags">
+                                <span>Symfony</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-year">2018</div>
+                        <div class="experience-content">
+                            <h3>Monteur Câbleur Fibre Optique</h3>
+                            <div class="experience-location">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                                    ></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                AFPA Golbey
+                            </div>
+                            <p>
+                                Formation technique approfondie incluant un
+                                stage pratique. Acquisition de compétences en
+                                installation et maintenance de réseaux fibre
+                                optique.
+                            </p>
+                            <div class="experience-tags">
+                                <span>Fibre Optique</span>
+                                <span>Réseaux</span>
+                                <span>Installation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-year">2016-2017</div>
+                        <div class="experience-content">
+                            <h3>Développeur Web & Mobile</h3>
+                            <div class="experience-location">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                                    ></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                CCI Vosges Épinal
+                            </div>
+                            <p>
+                                Formation intensive en développement web.
+                                Apprentissage des fondamentaux et réalisation de
+                                projets concrets.
+                            </p>
+                            <div class="experience-tags">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-year">2008</div>
+                        <div class="experience-content">
+                            <h3>BEP Electrotechnique</h3>
+                            <div class="experience-location">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                                    ></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                Jean-Charles Péllerin Épinal
+                            </div>
+                            <p>
+                                Bep Electrotechnique au Lycée Jean-Charles
+                                Péllerin d'une durée de 2 ans.
+                            </p>
+                            <div class="experience-tags">
+                                <span>Electrotechnique</span>
+                                <span>BEP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>
+                            Intéressé par mon profil ? N'hésitez pas à me
+                            contacter pour discuter de vos projets.
+                        </p>
+                    </div>
+                    <div class="contact-links">
+                        <a
+                            href="https://github.com/Checkem123"
+                            target="_blank"
+                            class="contact-link"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                                ></path>
+                            </svg>
+                            GitHub
+                        </a>
+                        <a
+                            href="ressources/CV.pdf"
+                            download
+                            class="contact-link"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                                ></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            CV
+                        </a>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Votre nom"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="Votre email"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <textarea
+                                id="message"
+                                name="message"
+                                required
+                                placeholder="Votre message"
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            Envoyer
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Kevin Fetet. Tous droits réservés.</p>
+            </div>
+        </footer>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const menuToggle = document.querySelector(".menu-toggle");
+                const navLinks = document.querySelector(".nav-links");
+
+                menuToggle.addEventListener("click", function () {
+                    const isExpanded =
+                        this.getAttribute("aria-expanded") === "true";
+                    this.setAttribute("aria-expanded", !isExpanded);
+                    this.classList.toggle("active");
+                    navLinks.classList.toggle("active");
+                });
+
+                // Close menu when clicking a link
+                navLinks.addEventListener("click", function (e) {
+                    if (e.target.tagName === "A") {
+                        menuToggle.classList.remove("active");
+                        navLinks.classList.remove("active");
+                        menuToggle.setAttribute("aria-expanded", "false");
+                    }
+                });
+
+                // Close menu when clicking outside
+                document.addEventListener("click", function (e) {
+                    if (
+                        !menuToggle.contains(e.target) &&
+                        !navLinks.contains(e.target)
+                    ) {
+                        menuToggle.classList.remove("active");
+                        navLinks.classList.remove("active");
+                        menuToggle.setAttribute("aria-expanded", "false");
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
