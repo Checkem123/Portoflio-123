@@ -1,14 +1,14 @@
 /* Base styles and CSS reset */
 :root {
-    --primary: #00adb5;
-    --primary-dark: #009299;
-    --secondary: #393e46;
-    --accent: #222831;
-    --background: #222831;
-    --surface: #393e46;
-    --text: #eeeeee;
-    --text-light: #aaaaaa;
-    --border: #2d343d;
+    --primary: #7289da;
+    --primary-dark: #5b6eae;
+    --secondary: #40444b;
+    --accent: #2f3136;
+    --background: #36393f;
+    --surface: #2f3136;
+    --text: #ffffff;
+    --text-light: #b9bbbe;
+    --border: #202225;
     --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.3), 0 1px 2px -1px rgb(0 0 0 / 0.3);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.3),
         0 4px 6px -4px rgb(0 0 0 / 0.3);
