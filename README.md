@@ -1,6 +1,6 @@
 # Kevin Fetet - Portfolio Website
 
-A modern, responsive portfolio website showcasing my work as a Full Stack Developer. Built with clean, semantic HTML5 and modern CSS3 practices.
+A modern, responsive portfolio website showcasing my work as a Developer. Built with clean, semantic HTML5 and modern CSS3 practices.
 
 ![Portfolio Preview](preview.png)
 
