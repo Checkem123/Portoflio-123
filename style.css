@@ -214,12 +214,14 @@ header {
     grid-template-columns: 1.2fr 1fr;
     gap: 4rem;
     align-items: center;
+    max-width: 100%;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    max-width: 100%;
 }
 
 .hero-text {
@@ -233,6 +235,13 @@ header {
     font-size: 1.1rem;
     font-weight: 500;
     letter-spacing: 0.5px;
+}
+
+.hero h1,
+.hero h2,
+.hero p {
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 .hero h1 {
@@ -353,7 +362,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    width: 100%;
+    max-width: 100%;
 }
 
 .skills-category {
@@ -997,42 +1006,26 @@ footer {
 
 @media (max-width: 480px) {
     .container {
-        padding: 0 1rem;
+        padding: 0 0.75rem;
     }
 
     .hero .container {
-        padding: 0 1rem;
-        margin: 0;
-        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 
-    .hero-content {
-        padding: 0;
+    .hero-visual {
+        display: none;
     }
 
-    .tech-item {
-        min-width: 100px;
-        height: auto;
-        min-height: 100px;
-        padding: 0.75rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    .skills-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 
-    .tech-item span {
-        font-size: 0.8rem;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: 90px;
-    }
-
-    .tech-wrapper {
-        display: flex;
-        align-items: stretch;
+    .tech-stack {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
     }
 
     .hero h1 {
@@ -1055,10 +1048,6 @@ footer {
     .experience-grid {
         grid-template-columns: 1fr;
         padding: 0 1rem;
-    }
-
-    .tech-stack {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
 
