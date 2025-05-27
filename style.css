@@ -273,7 +273,7 @@ header {
     font-size: 1.1rem;
     color: var(--text-light);
     max-width: 540px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .hero-cta {
