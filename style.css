@@ -495,7 +495,7 @@ header {
 }
 
 .about-content {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -962,7 +962,6 @@ footer {
 
     .contact-form {
         padding: 2rem;
-        
     }
 
     .contact-links {
@@ -1112,6 +1111,11 @@ footer {
 
     .experience-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-content {
+        max-width: 100%;
+        padding: 0 1rem;
     }
 }
 
